@@ -46,12 +46,18 @@ body{
     font-weight: 400;
 }
 
+.container .nav h2 a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
 
 .container .nav .nav-bar li{
     list-style: none;
     display: inline-block;
     margin-right:15px ;
 }
+
 .container .nav .nav-bar li a{
     text-decoration: none;
     color: #fff;
