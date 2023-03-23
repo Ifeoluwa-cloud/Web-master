@@ -19,6 +19,7 @@ body{
 
 .container{
     width: 100%;
+    overflow: hidden;
 }
 
 .container .nav{
@@ -117,15 +118,81 @@ body{
     width: 300px;
     height: auto;
     float: right;
-    background-color: #E94E7A;
-    padding: 10px;
-    margin: 5px 5px 10px 5px;
+    background-color: white;
+    margin: 0 10px 10px 10px;
+    padding: 10px 10px;
 }
 
+#heading{
+    color: #d60b45;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#sub-heading{
+    color: #d60b45;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
 .main-blog{
     width: 1000px;
     height: auto;
-    background-color: #fff;
+    background-color: #EDEBF8;
     padding: 20px;
-    margin: 5px 5px 10px 5px;
+    margin: 5px 5px 10px 10px;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+#main-blog_paragraph{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+footer{
+    background-color: #E94E7A;
+}
+
+.footer-text{
+    padding: 1% 5% 1% 5%;
+}
+
+.footer-text h4{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-text p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;  
+    margin-bottom: 10px;
+}
+
+.social-links{
+    align-items: center;
+    justify-content: center;
+    margin-left: 570px;
+    padding-bottom: 20px;
+}
+
+.social-links a img{
+    width: 30px;
+    margin-right: 10px;
 }

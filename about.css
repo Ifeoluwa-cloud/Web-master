@@ -107,7 +107,7 @@ body{
 .about-details{
     background-color: #fff;
     margin: 50px;
-    padding: 70px;
+    padding: 0 10px 0 10px;
 }
 
 .about-details h2{
